@@ -5,7 +5,7 @@ cask "pruneo" do
   # Siempre baja la última versión publicada; el contador de pruneo.app la registra como «brew».
   url "https://pruneo.app/d?ref=brew&v=#{version}"
   name "Pruneo"
-  desc "Safe cleanup and performance tool for your Mac"
+  desc "Safe disk cleanup with a 48-hour quarantine"
   homepage "https://pruneo.app/"
 
   livecheck do
@@ -15,7 +15,7 @@ cask "pruneo" do
     end
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Pruneo.app"
   binary "#{appdir}/Pruneo.app/Contents/Helpers/pruneo"
