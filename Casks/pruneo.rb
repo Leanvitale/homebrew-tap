@@ -1,6 +1,6 @@
 cask "pruneo" do
-  version "1.0.7"
-  sha256 "21f1221043317816e89d8e331db70d2559d78f135c6c09c0d16d7a2a91282bb6"
+  version "1.0.8"
+  sha256 "0f91557be1ce4232f0b04ebded6f73cceccffb6e54f793de7a6c3b7085654806"
 
   # Siempre baja la última versión publicada; el contador de pruneo.app la registra como «brew».
   url "https://pruneo.app/d?ref=brew&v=#{version}"
